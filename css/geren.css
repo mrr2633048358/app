@@ -1,0 +1,143 @@
+@import url('base.css');
+.beijing{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -999;
+}
+.beijing img{
+	width: 100%;
+	height: 100%;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	opacity: 0.7;
+}
+/* 导航开始 */
+.daohang{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.daohang-left{
+	width: 1rem;
+	height: 1.1rem;
+	font-size: 0.47rem;
+	text-align: center;
+	line-height: 1.1rem;
+	padding-left: 0.25rem;
+	display: block;
+}
+.daohang-shp{
+	width: auto;
+	overflow: hidden;
+	height: 1.1rem;
+	font-size: 0.4rem;
+	line-height: 1.1rem;
+	color: #666;
+	font-weight: 500;
+	padding: 0 0.3rem;
+}
+.icon-iconxiangzuo:first-child{
+	font-size: 0.54rem;
+	color: #666;
+	float: left;
+	text-align: center;
+}
+.icon-dakai:first-child{
+	/* font-size: 0.54rem; */
+	color: #666;
+	float: left;
+	text-align: center;
+}
+/* 导航结束 */
+/* 登录开始 */
+.denglu-box{
+	width: 100%;
+	height:3rem;
+}
+.ger-pic{
+	width: 2.5rem;
+	height: 2.5rem;
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 8%;
+	border-radius: 50%;
+	display: block;
+}
+.ger-pic img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.daohang-tou{
+	width: 2.5rem;
+	height: 0.6rem;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	color: #fff;
+	font-weight: 500;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 28%;
+	border-radius:0.6rem;
+ 	background: rgba(0, 0, 0, 0.5);
+	padding: 0.1rem 0.3rem;
+}
+/* 登录结束 */
+/* 个人信息开始 */
+.xinxi-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 0 0.3rem;
+}
+.line1{
+	width: 100%;
+	height: 0.7rem;
+	margin: 0.3rem 0.2rem;
+}
+.linr-left,.line-right{
+ 	height: 100%;
+ 	color: #fff;
+ 	background: rgba(0, 0, 0, 0.5);
+ 	font-size: 0.4rem;
+ 	line-height: 0.5rem;
+ 	padding: 0.1rem 0.3rem;
+ 	float: left;
+	margin-top: 0.3rem;
+ 	border-radius: 0.8rem;/* 
+ 	border: 0.02rem solid #999; */
+}
+.line-right{
+	width:100%;
+	margin-right: 0.5rem;
+}
+.n{
+	float: left;
+	width: 100%;
+	margin-top: 0.2rem;
+}
+/* 个人信息结束 */

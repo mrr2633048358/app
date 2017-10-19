@@ -1,0 +1,363 @@
+@import url('base.css');
+/* 头部开始 */
+.header-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	padding: 0.18rem;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.toubu-left{
+	width: 1.2rem;
+	height: 0.50rem;
+	float: left;
+	background: red;
+	background:  #a9aaac;
+	font-size: 0.36rem;
+	line-height: 0.50rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	color: #fff;
+	font-size: 0.18rem;
+}
+.header-input{
+	width: 60%;
+	height: 0.66rem;
+	background: #e7e7e7;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	color: #a9aaac;
+	float: left;
+	padding: 0.18rem 0.75rem;
+	border-radius: 0.33rem;
+}
+.header-box button{
+	width: 0.37rem;
+	height: 0.34rem;
+	float: left;
+	position: absolute;
+	left: 27%;/* 
+	bottom: 0.1rem; */
+	display: block;
+	border: 0;
+	border-radius: 0.33rem;
+}
+.header-box button img{
+	width: 100%;
+	height: 100%;
+}
+.toubu-right{
+	width: 0.66rem;
+	height: 0.50rem;
+	float: right;
+	display: block;
+	font-size: 0.36rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.5rem;
+	background: #a9aaac;
+	border-radius: 0.5rem;
+}
+/* 头部结束 */
+/* 导航开始 */
+.daohang-box{
+	width: 100%;
+	height: 0.75rem;
+	border-top: 0.02rem solid #b2b2b2;
+	border-bottom: 0.02rem solid #f4f4f4;
+	overflow: hidden;
+	margin-top: 1.2rem;
+}
+.daolist{
+	width: 100%;
+	height: 100%;
+}
+.daolist li{
+	width: calc(100% / 6);
+	height: 100%;
+	float: left;
+}
+.daolist li a{
+	width: 100%;
+	height: 100%;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.75rem;
+	color: #333;
+	display: block;
+	border-bottom: 0.05rem solid #eeeeee;
+}
+.daolist li:nth-child(6) a{
+	color: #ffe000;
+	border-bottom: 0.05rem solid #ffe000;
+}
+/* 导航结束 */
+/* 删选开始 */
+.shx{
+	width: 100%;
+	height: 0.7rem;
+	padding: 0.1rem 0.15rem;
+	border-bottom: 0.02rem solid #cecece;
+}
+.shx-list{
+	width: 80%;
+	height: 100%;
+	float: left;
+	font-size: 0.23rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #666; 
+}
+.shx-list li{
+	width: auto;
+	height: 0.450rem;
+	overflow: hidden;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.35rem;
+	padding: 0.05rem 0.1rem;
+	border-radius: 0.4rem;
+	margin: 0 0.1rem;
+	float: left;
+	background: #888;
+	color: #fff;
+	cursor: pointer;
+}
+.shx-list li:first-child{
+	background: #eee;
+	color: #000;
+}
+.shx-geng{
+	width: 10%;
+	height: 100%;
+	background: #666;
+	float: right;
+	margin-right: 3%;
+	border-radius: 0.7rem;
+	font-size: 0.23rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #fff;
+}
+/* 删选结束 */
+/* 商品列表开始 */
+.fuzh{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+.fuzh-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;/* 
+	background: #fff; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.15rem 0;
+}
+.fuzh-left{
+	width:0.68rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: left;
+	margin:0 0.05rem;
+}
+.fuzh-title{
+	width: auto;
+	height: 0.5rem;
+	overflow: hidden;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #4a84e2;
+	margin: 0 0.05rem;
+	overflow: hidden;
+}
+.fuzh-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.fuzh-bottom li{
+	width: calc(100% / 3);
+	height:4.5rem;
+	float: left;
+	padding: 0.2rem 0.05rem;
+}
+.fuzh-bottom li a{
+	display: block;
+	width: 100%;
+	height: 4rem;
+	overflow: hidden;
+	display: block;
+	padding-bottom: 0.24rem;/* 
+	display: flex;
+	flex-direction: column;
+	align-content: space-around; */
+}
+.fuzh-bottom li a .fu-img{
+	width: 100%;
+	height:2.8rem;
+	overflow: hidden;
+	display: block;
+}
+.fu-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.cain-bottext4{
+	display: block;
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	font-size: 0.24rem;
+	line-height: 0.25rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext1{
+	display: block;
+	width: 90%;
+	height:auto;
+	overflow: hidden;
+	font-size: 0.20rem;
+	line-height: 0.3rem;
+	padding-top: 0.2rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext2{
+	display: block;
+	width: auto;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #dd2727;
+	float: left;
+	margin-top:  0.2rem;
+	padding: 0 0.1rem;
+}
+.cn1 li{
+	width: 50%;
+	height: 6rem;
+}
+.cn1 li a{
+	height: 6rem;
+}
+.cn1 li a .fu-img{
+	height: 4.5rem;
+}
+.cn2{
+	display: block;
+	width: 90%;
+	height:0.7rem;
+	overflow: hidden;
+	font-size: 0.25rem;
+	line-height: 0.3rem;
+	padding-top: 0.1rem;
+	color: #666;
+	margin:0 auto;
+	text-align: center;
+}
+.cn3{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.30rem;
+	line-height: 0.35rem;
+	color: #dd2727;
+	float: left;
+	margin-top:  0.2rem;
+	padding: 0 0.1rem;
+	text-align: center;
+}
+/* 商品列表结束 */
+.end{
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #5e5d5d;
+	font-size: 0.36rem;
+	border-top: 0.03rem solid #b2b0b0;/* 
+	margin-top: 0.2rem; */
+}
+.box{
+	width: 100%;
+	height: 1.22rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 0.02rem solid #68736b;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-list{
+	width: 0.7rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.footer-list:nth-child(3) .nav .icon-ershou:first-child{
+	color: #ff5000;
+}
+.footer-list:nth-child(3) .text{
+	color: #ff5000;
+}
+.nav{
+	width: 0.58rem;
+	height: 0.58rem;
+}
+.icon-shouye:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-wode:first-child{
+	font-size: 0.54rem;
+	color: #000;
+	float: left;
+	text-align: center;
+	font-weight: 600;
+}
+.icon-leimupinleifenleileibie:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-ershou:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-dingdan:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.text{
+	width: 0.67rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.1rem;
+	color: #222;
+}

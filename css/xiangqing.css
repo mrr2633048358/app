@@ -1,0 +1,250 @@
+@import url('base.css');
+/* 导航开始 */
+.daohang{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.daohang-left{
+	width: 1rem;
+	height: 1.1rem;
+	font-size: 0.47rem;
+	text-align: center;
+	line-height: 1.1rem;
+	padding-left: 0.25rem;
+	display: block;
+}
+.daohang-shp{
+	width: auto;
+	overflow: hidden;
+	height: 1.1rem;
+	font-size: 0.4rem;
+	line-height: 1.1rem;
+	color: #666;
+	font-weight: 500;
+}
+.icon-iconxiangzuo:first-child{
+	font-size: 0.54rem;
+	color: #666;
+	float: left;
+	text-align: center;
+}
+.icon-dakai:first-child{
+	/* font-size: 0.54rem; */
+	color: #666;
+	float: left;
+	text-align: center;
+}
+/* 导航结束 */
+/* 商品开始 */
+.box{
+	width: 80%;
+	height: auto;
+	overflow: hidden;
+	border-radius: 0.1rem;
+	background: #fff;
+	margin: 0.3rem auto 0.3rem;
+}
+.pic{
+	width: 100%;
+	height: 6rem;
+}
+.picbox{
+	width: 300%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.picbox a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.picbox a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.pic-list{
+	width: 1.58rem;
+	height: 0.42rem;
+	padding: 0.15rem 0 0 0.16rem;
+	display: flex;
+	justify-content: space-between;
+}
+.pic-list li{
+	width: 0.2rem;
+	height: 0.2rem;
+	border-radius: 50%;
+	background: #999;
+}
+.pic-list li:first-child{
+	background: #333;
+}
+.shpming{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	font-size: 0.36rem;
+	line-height: 0.48rem;
+	color: #666;
+	padding: 0.3rem 0.16rem;
+}
+.yansebox{
+	width: 100%;
+	height: auto;
+	padding: 0.3rem 0.16rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.yanse-left{
+	width: 30%;
+	height: 100%;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.48rem;
+	color: #666;
+}
+.yanse-right,.chic-right{
+	width: 60%;
+	height: 0.45rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.yanse-right li{
+	width: 0.45rem;
+	height: 0.45rem;
+}
+.an{
+	width: 0.42rem;
+	height: 0.42rem;
+	margin: auto auto;
+	float: left;
+	border-radius: 50%;
+}
+.yanse-right li:nth-child(1) .an{
+	width: 0.37rem;
+	height: 0.37rem;
+	background: #8937fd;
+	border: 0.06rem solid #d0abf1;
+}
+.yanse-right li:nth-child(2) .an{
+	background: #ffbd4c;
+	border: 0.03rem solid #ea9300;
+}
+.yanse-right li:nth-child(3) .an{
+	background: #b4eaff;
+	border: 0.03rem solid #63cef8;
+}
+.yanse-right li:nth-child(4) .an{
+	background: #fc5d9d;
+	border: 0.03rem solid #e10054;
+}
+.yanse-right li:nth-child(2) :focus .an{
+	width: 0.37rem;
+	height: 0.37rem;
+	background: #ea9300;
+	border: 0.03rem solid #ffbd4c;
+}
+.yanse-right li:nth-child(3) :focus .an{
+	width: 0.37rem;
+	height: 0.37rem;
+	background: #63cef8;
+	border: 0.03rem solid #b4eaff;
+}
+.yanse-right li:nth-child(4) :focus .an{
+	width: 0.37rem;
+	height: 0.37rem;
+	background: #e10054;
+	border: 0.03rem solid #fc5d9d;
+}
+.chic-right li{
+	width: auto;
+	height: 0.4rem;
+	overflow: hidden;
+}
+.an1{
+	padding: 0 0.1rem;
+	border: 0.04rem solid #afafaf;
+	width: auto;
+	height: 0.4rem;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.32rem;
+	color: #afafaf;
+	border-radius: 0.36rem;
+}
+.chic-right li:nth-child(1) .an1{
+	color: #333;
+	border-color: #333;
+}
+.shul-right{
+	width:60%;
+	height:0.45rem; 
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shul-right botton{
+	width: 0.45rem;
+	height: 0.45rem;
+}
+.icon-jia:first-child{
+	font-size: 0.20rem;
+	color: #222;
+	float: left;
+	text-align: center;
+	line-height: 0.45rem;
+}
+.icon-jian:first-child{
+	font-size: 0.20rem;
+	color: #222;
+	float: left;
+	text-align: center;
+	line-height: 0.45rem;
+}
+.shul-shu{
+	width: 50%;
+	height: 0.45rem;
+	border: 0.02rem solid #898989;
+	font-size: 0.2rem;
+	text-align: center;
+	color: #898989;
+	line-height: 0.41rem;
+}
+.queren{
+	width: 100%;
+	height: 1.74rem;
+	padding: 0.3rem 0;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 0.6rem;
+}
+.queren button{
+	width: 50%;
+	height: 100%;
+	border: 0;
+	border-radius: 0.84rem;
+	background: #c9c9c9;
+	color: #333;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.84rem;
+	margin: 0 auto;
+}
+.queren button a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #333;
+}
+.queren button:focus{
+	outline: none;
+}
+/* 商品结束 */

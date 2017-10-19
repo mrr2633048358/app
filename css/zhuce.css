@@ -1,0 +1,230 @@
+@import url('base.css');
+.beijing{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -999;
+}
+.beijing img{
+	width: 100%;
+	height: 100%;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: #fff;
+	opacity: 0.5;
+}
+/* 导航开始 */
+.daohang{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.daohang-left{
+	width: 1rem;
+	height: 1.1rem;
+	font-size: 0.47rem;
+	text-align: center;
+	line-height: 1.1rem;
+	padding-left: 0.25rem;
+	display: block;
+}
+.daohang-shp{
+	width: auto;
+	overflow: hidden;
+	height: 1.1rem;
+	font-size: 0.4rem;
+	line-height: 1.1rem;
+	color: #666;
+	font-weight: 500;
+}
+.icon-iconxiangzuo:first-child{
+	font-size: 0.54rem;
+	color: #666;
+	float: left;
+	text-align: center;
+}
+.icon-dakai:first-child{
+	/* font-size: 0.54rem; */
+	color: #666;
+	float: left;
+	text-align: center;
+}
+/* 导航结束 */
+/* 登录开始 */
+.denglu-box{
+	width: 100%;
+	height:2.5rem;
+}
+.ger-pic{
+	width: 1.27rem;
+	height: 1.27rem;
+	background: red;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin-right: auto;
+	margin-left: auto;
+	top: 12%;
+	border-radius: 50%;
+	display: block;
+}
+.ger-pic img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+/* 登录结束 */
+/* input开始 */
+.input{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+	opacity: 0.8;
+}
+.yonghuming{
+	width: 80%;
+	height: 0.78rem;
+	border: 0.02rem solid #999;
+	border-radius: 0.78rem;
+	margin: 0 10%;
+	padding: 0 1rem;
+}
+.yonghu{
+	width: 1.2rem;
+	height: 0.78rem;
+	border-radius: 0.78rem;
+	position: absolute;
+	left: 10%;
+	top: 0.5rem;
+	padding: 0.1rem 0.3rem;
+}
+.n1{
+	top:3.1rem;
+}
+.yonghu:nth-of-type(2){
+	top: 1.80rem;
+}
+.icon-yonghu:first-child{
+	font-size: 0.52rem;
+	color: #999;
+	float: left;
+	text-align: center;
+}
+.icon-mima01:first-child,.icon-mima01:nth-child(2){
+	font-size: 0.52rem;
+	color: #999;
+	float: left;
+	text-align: center;
+}
+.input main,.button{
+	width: 100%;
+	height: 0.78rem;
+	margin-top: 0.72rem;
+	display: flex;
+	justify-content: center;
+}
+.input main button,.button-son,.button button{
+	width:2.8rem;
+	height: 100%;
+	background: #fff;
+	margin: 0 0.3rem;
+	border-radius: 1.5rem;
+	border: 0.02rem solid #666;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height:0.78rem;
+	color: #eb8d1b;
+}
+.input main button a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #eb8d1b;
+}
+.button button{
+	width: 2rem;
+	margin: 0 0.3rem;
+}
+.button-son{
+	width: 3.5rem;
+}
+/* input结束 */
+.fuzh-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;/* 
+	background: #fff; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0.9rem;
+}
+.fuzh-left{
+	width:0.76rem;
+	height: 0.02rem;
+	background: #999;
+	float: left;
+	margin:0 0.05rem;
+}
+.fuzh-title{
+	width: auto;
+	height: 0.5rem;
+	overflow: hidden;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #999;
+	margin: 0 0.05rem;
+	overflow: hidden;
+}
+.sanfang{
+	width: 100%;
+	height: 0.52rem;
+	margin-top: 0.4rem;
+	display: flex;
+	justify-content: center;
+}
+.sanfang li{
+	width: 0.52rem;
+	height: 0.52rem;
+	padding:  0 0.5rem;
+	float: left;
+}
+.sanfang li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.icon-iconfontqq1:first-child{
+	font-size: 0.52rem;
+	color: #999;
+	float: left;
+	text-align: center;
+}
+.icon-weixin:first-child{
+	font-size: 0.52rem;
+	color: #999;
+	float: left;
+	text-align: center;
+}
+.icon-weibo:first-child{
+	font-size: 0.52rem;
+	color: #999;
+	float: left;
+	text-align: center;
+}

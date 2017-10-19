@@ -1,0 +1,623 @@
+@import url('base.css');
+
+/* banner开始 */
+.banner-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+.header-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	left: 0;
+	top: 0.1rem;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.toubu-left{
+	width: 1.2rem;
+	height: 0.50rem;
+	float: left;
+	background: red;
+	background:  #000;
+	font-size: 0.36rem;
+	line-height: 0.50rem;
+	border-radius: 0.5rem;
+}
+.icon-icons08:first-child{
+	color: #fff;
+	font-size: 0.36rem;
+	float: left;
+}
+.toubu-left p{
+	width: 0.8rem;
+	height: 0.4rem;
+	color: #fff;
+	font-size: 0.18rem;
+	float: left;
+}
+.header-input{
+	width: 60%;
+	height: 0.66rem;
+	background: #e7e7e7;
+	font-size: 0.26rem;
+	line-height: 0.3rem;
+	color: #a9aaac;
+	float: left;
+	padding: 0.18rem 0.75rem;
+	border-radius: 0.33rem;
+}
+.header-box button{
+	width: 0.37rem;
+	height: 0.34rem;
+	float: left;
+	position: absolute;
+	left: 27%;/* 
+	bottom: 0.1rem; */
+	display: block;
+	border: 0;
+	border-radius: 0.33rem;
+}
+.header-box button img{
+	width: 100%;
+	height: 100%;
+}
+.toubu-right{
+	width: 1rem;
+	height: 0.50rem;
+	float: right;
+	display: block;
+	font-size: 0.15rem;
+	color: #ffffff;
+	text-align: center;
+	line-height: 0.5rem;
+	background: #000;
+	border-radius: 0.5rem;
+}
+.banner{
+	width: 100%;
+	height:4rem;
+	overflow: hidden;
+}
+.banner-pic{
+	width: 100%;
+	height: 4rem;
+	float: left;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+.banner-pic img{
+	width: 100%;
+	height: 100%;
+}
+.banner-list{
+	width: 100%;
+	height: 0.2rem;
+	position: absolute;
+	left: 0;
+	bottom: 0.17rem;
+	display: flex;
+	justify-content: center;
+}
+.banner-list li{
+	width: 0.20rem;
+	height: 0.20rem;
+	float: left;
+	border-radius: 50%;
+	background: #f0f0f0;
+	border: 0.04rem solid #7b7a7d;
+	opacity: 0.6;
+	margin: 0 0.04rem;
+}
+/* banner结束 */
+/* 分类开始 */
+.navList{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #eeeeee;
+}
+.list{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0.15rem 0.49rem;
+	justify-content: space-around;
+}
+.list li{
+	width: 1rem;
+	height: 1.35rem;
+	float: left;
+}
+.naving{
+	width: 1rem;
+	height: 1rem;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	font-size: 0.6rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #fff;
+}
+.a1{
+	background: #c21026;
+}
+.a2{
+	background: #488ffb;
+}
+.a3{
+	background: #ff9934;
+}
+.a4{
+	background: #ff679a;
+}
+.a5{
+	background: #56c350;
+}
+.a6{
+	background: #57c4e3;
+}
+.icon-nvzhuang:first-child{
+	font-size: 0.54rem;
+}
+.icon-meizhuang:first-child{
+	font-size: 0.54rem;
+}
+.icon-shoushi:first-child{
+	font-size: 0.54rem;
+}
+.icon-xiezi:first-child{
+	font-size: 0.54rem;
+}
+.icon-xiangbao:first-child{
+	font-size: 0.54rem;
+}
+.icon-huojia:first-child{
+	font-size: 0.54rem;
+}
+.navtext{
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	text-align: center;
+	display: block;
+	color: #333;
+}
+/* 分类结束 */
+/* 今日推荐开始 */
+.jrbox{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #fff;
+	padding-bottom: 0.1rem;
+}
+.jrtj{
+	width: 100%;
+	height: 0.88rem;
+	padding: 0 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #fff;
+}
+.jrleft{
+	width: 1.33rem;
+	height: 0.46rem;
+}
+.jrleft img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.jrright{
+	width: 3.13rem;
+	height: 0.46rem;
+	display: flex;
+	justify-content: space-between;
+}
+.jrshyu{
+	width: 1.14rem;
+	height: 100%;
+}
+.jrshyu img{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.jrshji{
+	width: 1.82rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.jrshji p:nth-child(2n+1){
+	width: 0.46rem;
+	height: 0.46rem;
+	background: #585858;
+	border-radius: 0.04rem;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color: #fff;
+}
+.jrshji p:nth-child(2n){
+	width: 0.1rem;
+	height: 0.46rem;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.46rem;
+	color: #262626;
+	flex-grow: 1;
+}
+.main{
+	width: 100%;
+	height:3rem;
+}
+.jrmain-list{
+	width: 230%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.jrmain-list li{
+	width: 2.17rem;
+	height: 100%;
+	float: left;
+	background: #eee;
+	padding: 0 0 0.1rem 0;
+}
+.jrmain-list li a{
+	width: 2.17rem;
+	height: auto;
+	overflow: hidden;
+	display: block;
+	position: relative;
+}
+.jrimg{
+	width: 100%;
+	height: 70%;
+}
+.jrmain-list li a img{
+	width: 100%;
+	height: 100%;
+}
+.jrmain-list li a p:nth-child(2n+1){
+	width: 0.69rem;
+	height: 0.36rem;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #fff;
+	background:#fd568e;
+	border-radius: 0.36rem 0 0 0.36rem;
+	position: absolute;
+	right: 0;
+	bottom: 25%;
+}
+.jrmain-list li a p:nth-child(2n){
+	width: 100%;
+	height: 0.30rem;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.30rem;
+	color: #f8598f;
+	margin-top: -0.04rem;
+}
+/* 今日结束 */
+/* 广告开始 */
+.gg{
+	width: 100%;
+	height: 2.28rem;
+	padding: 0.1rem 0;
+}
+.gg img{
+	width: 100%;
+	height: 100%;
+}
+/* 广告结束 */
+/* 服装开始 */
+.fuzh{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+.fuzh-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;/* 
+	background: #fff; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.15rem 0;
+}
+.fuzh-left{
+	width:0.68rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: left;
+	margin:0 0.05rem;
+}
+.fuzh-title{
+	width: auto;
+	height: 0.5rem;
+	overflow: hidden;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #4a84e2;
+	margin: 0 0.05rem;
+	overflow: hidden;
+}
+.fuzh-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.fuzh-bottom li{
+	width: calc(100% / 3);
+	height:4.5rem;
+	float: left;
+	padding: 0.2rem 0.05rem;
+}
+.fuzh-bottom li a{
+	display: block;
+	width: 100%;
+	height: 4rem;
+	overflow: hidden;
+	display: block;
+	padding-bottom: 0.24rem;/* 
+	display: flex;
+	flex-direction: column;
+	align-content: space-around; */
+}
+.fuzh-bottom li a .fu-img{
+	width: 100%;
+	height:2.8rem;
+	overflow: hidden;
+	display: block;
+}
+.fu-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.cain-bottext4{
+	display: block;
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	font-size: 0.24rem;
+	line-height: 0.25rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext1{
+	display: block;
+	width: 90%;
+	height:auto;
+	overflow: hidden;
+	font-size: 0.20rem;
+	line-height: 0.3rem;
+	padding-top: 0.2rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext2{
+	display: block;
+	width: auto;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #dd2727;
+	float: left;
+	margin-top:  0.2rem;
+	padding: 0 0.1rem;
+}
+
+/* 服装结束 */
+/* 美妆开始 */
+.mei1 li{
+	width: 50%;
+	height:3.5rem;
+	float: left;
+	padding: 0.05rem;
+}
+.mei1 li a{
+	display: block;
+	width: 50%;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	padding-bottom: 0.24rem;
+	display: flex;
+	padding: 0.15rem;
+	flex-direction: column;
+	align-content: space-around;
+}
+.mei1 li a .mei-img{
+	width: 50%;
+	height:100%;
+	display: block;
+}
+.mei-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+/* .cain-bottext1{
+	display: block;
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	font-size: 0.12rem;
+	line-height: 0.25rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext2{
+	display: block;
+	width: auto;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #dd2727;
+	float: left;
+	margin-top: 0.1rem;
+	padding: 0 0.1rem;
+} */
+.cain-bottext3{
+	width: auto;
+	height: auto;
+	padding: 0.02rem;
+	border: 0.04rem solid #d61917;
+	border-radius: 0.30rem;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.30rem;
+	color: #d61917;
+}
+.m1{
+	font-size: 0.28rem;
+	color: #333;
+	padding: 0.15rem 0;
+}
+.m2{
+	font-size: 0.24rem;
+	padding: 0.15rem 0;
+}
+/* 没装结束 */
+.end{
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #5e5d5d;
+	font-size: 0.36rem;
+	border-top: 0.03rem solid #b2b0b0;/* 
+	margin-top: 0.2rem; */
+}
+/* 猜你喜欢 */
+.cn1 li{
+	width: 50%;
+	height: 6rem;
+}
+.cn1 li a{
+	height: 6rem;
+}
+.cn1 li a .fu-img{
+	height: 4.5rem;
+}
+.cn2{
+	display: block;
+	width: 90%;
+	height:0.7rem;
+	overflow: hidden;
+	font-size: 0.25rem;
+	line-height: 0.3rem;
+	padding-top: 0.1rem;
+	color: #666;
+	margin:0 auto;
+	text-align: center;
+}
+.cn3{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.30rem;
+	line-height: 0.35rem;
+	color: #dd2727;
+	float: left;
+	margin-top:  0.2rem;
+	padding: 0 0.1rem;
+	text-align: center;
+}
+/* 结束开始 */
+.box{
+	width: 100%;
+	height: 1.22rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 0.02rem solid #68736b;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-list{
+	width: 0.7rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.footer-list:first-of-type .nav .icon-shouye:first-child{
+	color: #ff5000;
+}
+.footer-list:first-of-type .text{
+	color: #ff5000;
+}
+.nav{
+	width: 0.58rem;
+	height: 0.58rem;
+}
+.icon-shouye:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-wode:first-child{
+	font-size: 0.54rem;
+	color: #000;
+	float: left;
+	text-align: center;
+	font-weight: 600;
+}
+.icon-leimupinleifenleileibie:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-ershou:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-dingdan:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.text{
+	width: 0.67rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.1rem;
+	color: #222;
+}
+/* 结束结束 */

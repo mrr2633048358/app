@@ -1,0 +1,392 @@
+@import url('base.css');
+/* 导航开始 */
+.daohang{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.daohang-left{
+	width: 1rem;
+	height: 1.1rem;
+	font-size: 0.47rem;
+	text-align: center;
+	line-height: 1.1rem;
+	padding-left: 0.25rem;
+	display: block;
+}
+.daohang-shp{
+	width: auto;
+	overflow: hidden;
+	height: 1.1rem;
+	font-size: 0.4rem;
+	line-height: 1.1rem;
+	color: #666;
+	font-weight: 500;
+}
+.icon-iconxiangzuo:first-child{
+	font-size: 0.54rem;
+	color: #666;
+	float: left;
+	text-align: center;
+}
+.icon-dakai:first-child{
+	/* font-size: 0.54rem; */
+	color: #666;
+	float: left;
+	text-align: center;
+}
+/* 导航结束 */
+/* 导航开始 */
+.daohang-box{
+	width: 100%;
+	height: 0.75rem;
+	border-top: 0.02rem solid #b2b2b2;
+	border-bottom: 0.02rem solid #f4f4f4;
+	overflow: hidden;
+}
+.daolist{
+	width: 100%;
+	height: 100%;
+}
+.daolist li{
+	width: calc(100% / 5);
+	height: 100%;
+	float: left;
+}
+.daolist li a{
+	width: 100%;
+	height: 100%;
+	font-size: 0.26rem;
+	text-align: center;
+	line-height: 0.75rem;
+	color: #333;
+	display: block;
+	border-bottom: 0.05rem solid #eeeeee;
+}
+.daolist li:nth-child(1) a{
+	color: #ffe000;
+	border-bottom: 0.05rem solid #ffe000;
+}
+/* 导航结束 */
+/* 商品开始 */
+.shangp{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	padding: 0.2rem 0.3rem;
+}
+.shangp li{
+	width: 100%;
+	height: 100%;
+}
+.shangp li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	margin-bottom: 0.2rem;
+}
+.shangp-pic{
+	width: 2rem;
+	height: 2rem;
+	display: block;
+	float: left;
+}
+.shangp-pic img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.shangp-wenzi{
+	width:65%;
+	height: 2rem;
+	display: block;
+	float: right;
+}
+.shangp-wenzi1{
+	width: 100%;
+	height: 0.80rem;
+	font-size: 0.36rem;
+	line-height: 0.40rem;
+	color: #666;
+}
+.shangp-wenzi2,.shangp-wenzi3{
+	overflow: hidden;
+	width: 1.5rem;
+	height: 0.36rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #f91314;
+	border: 0.02rem solid #f91314;
+	border-radius: 0.36rem;
+	margin: 0.2rem 0 0 0.2rem;
+}
+.shangp-wenzi3{
+	border: 0;
+	font-size: 0.36rem;
+	float: right;
+	color: #000;
+	width: 2.5rem;
+}
+.shangp-wenzi3 span{
+	color: #999;
+	text-decoration: line-through;
+}
+.zhifu,.zhifu1,.zhifu-left{
+	width: 100%;
+	height: 0.8rem;
+	border-top: 0.02rem solid #c9c9c9;
+	margin: 0.15rem 0;
+	float: left;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.zhifu1 button,.zhifu button,.zhifu-left button{
+	width: auto;
+	overflow: hidden;
+	height: 0.6rem;
+	border: 0;
+	margin: 0.1rem 0.2rem;
+	border: 0.02rem solid #999;
+	line-height: 0.4rem;
+	padding: 0.1rem 0.2rem;
+	border-radius: 0.6rem;
+}
+.zhifu{
+	border: 0;
+	width: 50%;
+}
+.zhifu button{
+	color: #f91314;
+	border: 0;
+	background: #eee;
+}
+.zhifu-left{
+	border: 0;
+	float: left;
+	width: 50%;
+}
+.zhifu-left button{
+	float: left;
+	border: 0;
+}
+/* 商品结束 */
+.fuzh{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: #f0f0f0;
+}
+.fuzh-box{
+	width: 100%;
+	height: auto;
+	overflow: hidden;/* 
+	background: #fff; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0.15rem 0;
+}
+.fuzh-left{
+	width:0.68rem;
+	height: 0.02rem;
+	background: #becfec;
+	float: left;
+	margin:0 0.05rem;
+}
+.fuzh-title{
+	width: auto;
+	height: 0.5rem;
+	overflow: hidden;
+	font-size: 0.30rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #4a84e2;
+	margin: 0 0.05rem;
+	overflow: hidden;
+}
+.fuzh-bottom{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	float: left;
+}
+.fuzh-bottom li{
+	width: calc(100% / 3);
+	height:4.5rem;
+	float: left;
+	padding: 0.2rem 0.05rem;
+}
+.fuzh-bottom li a{
+	display: block;
+	width: 100%;
+	height: 4rem;
+	overflow: hidden;
+	display: block;
+	padding-bottom: 0.24rem;/* 
+	display: flex;
+	flex-direction: column;
+	align-content: space-around; */
+}
+.fuzh-bottom li a .fu-img{
+	width: 100%;
+	height:2.8rem;
+	overflow: hidden;
+	display: block;
+}
+.fu-img img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	float: left;
+}
+.cain-bottext4{
+	display: block;
+	width: 90%;
+	height: auto;
+	overflow: hidden;
+	font-size: 0.24rem;
+	line-height: 0.25rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext1{
+	display: block;
+	width: 90%;
+	height:auto;
+	overflow: hidden;
+	font-size: 0.20rem;
+	line-height: 0.3rem;
+	padding-top: 0.2rem;
+	color: #666;
+	margin:0 auto;
+}
+.cain-bottext2{
+	display: block;
+	width: auto;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.22rem;
+	color: #dd2727;
+	float: left;
+	margin-top:  0.2rem;
+	padding: 0 0.1rem;
+}
+
+.cn1 li{
+	width: 50%;
+	height: 6rem;
+	padding: 0 5%;
+}
+.cn1 li a{
+	height: 6rem;
+}
+.cn1 li a .fu-img{
+	height: 4.5rem;
+}
+.cn2{
+	display: block;
+	width: 90%;
+	height:0.7rem;
+	overflow: hidden;
+	font-size: 0.25rem;
+	line-height: 0.3rem;
+	padding-top: 0.1rem;
+	color: #666;
+	margin:0 auto;
+	text-align: center;
+}
+.cn3{
+	display: block;
+	width: 100%;
+	height: 0.22rem;
+	font-size: 0.30rem;
+	line-height: 0.35rem;
+	color: #dd2727;
+	float: left;
+	margin-top:  0.2rem;
+	padding: 0 0.1rem;
+	text-align: center;
+}
+.end{
+	width: 100%;
+	height: 2rem;
+	text-align: center;
+	line-height: 0.5rem;
+	color: #5e5d5d;
+	font-size: 0.36rem;
+	border-top: 0.03rem solid #b2b0b0;/* 
+	margin-top: 0.2rem; */
+}
+/* 结束开始 */
+.box{
+	width: 100%;
+	height: 1.22rem;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	border-top: 0.02rem solid #68736b;
+	display: flex;
+	justify-content: space-around;
+}
+.footer-list{
+	width: 0.7rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.footer-list:nth-of-type(4) .nav .icon-dingdan:first-child{
+	color: #ff5000;
+}
+.footer-list:nth-of-type(4) .text{
+	color: #ff5000;
+}
+.nav{
+	width: 0.58rem;
+	height: 0.58rem;
+}
+.icon-shouye:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-wode:first-child{
+	font-size: 0.54rem;
+	color: #000;
+	float: left;
+	text-align: center;
+	font-weight: 600;
+}
+.icon-leimupinleifenleileibie:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-ershou:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.icon-dingdan:first-child{
+	font-size: 0.54rem;
+	color: #222;
+	float: left;
+	text-align: center;
+}
+.text{
+	width: 0.67rem;
+	height: 0.22rem;
+	font-size: 0.22rem;
+	line-height: 0.1rem;
+	color: #222;
+}
+/* 结束结束 */
